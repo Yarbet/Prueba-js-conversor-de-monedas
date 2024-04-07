@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+
+    <div>
+        <input id="clp" type="text" placeholder="Ingresa el valor en CLP">
+        <hr>
+        <select name="coins" id="coins">
+            <option value=""></option>
+            <option selected disabled value="">--Seleciona una moneda--</option>
+        </select>
+        <hr>
+        <button id="calcular">
+            Calcular
+        </button>
+        <div id="resultado"></div>
+    </div>
+
+    <h1 id="loading"></h1>
+
+
+
+    <div class="grafica">
+        <canvas id="myChart"></canvas>
+    </div>
+
+
+
+
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="./assets/app.js"></script>
+
+</body>
+
+</html>
